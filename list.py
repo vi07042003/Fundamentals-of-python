@@ -1,0 +1,16 @@
+my_list=[1,2,4,9]
+print(my_list[1:2])
+print(len(my_list))
+print(max(my_list))
+print(min(my_list))
+print(sum(my_list))
+my_list.append(8)
+print(my_list)
+my_list2=[3,5,6]
+print(my_list)
+my_list.extend(my_list2)
+print(my_list)
+my_list.remove(2)
+print(my_list)
+my_list.sort()
+print(my_list)
